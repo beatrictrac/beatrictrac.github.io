@@ -1,0 +1,130 @@
+html:nth-child(2){
+    height: 100%;
+}
+
+body:nth-child(2){
+    min-height: 100%;
+    background-color: #eda304;
+}
+
+.main-container{
+    height: 100vh;
+}
+
+#card{
+    width: 20rem;
+    background-color: #834703;
+}
+
+#playButton{
+    color:white;
+	font-size: 2rem;
+    padding: 0.4rem;
+}
+
+#heartButton, #infoButton{
+    color:white;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+#shuffleButton, #repeatButton, #playlistButton{
+    color:white;
+    font-size: 1.2rem;
+}
+
+.heart-info-container{
+    width: 100%;
+	text-align: right;
+}
+
+#prev-track, #next-track{
+    color:white;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+}
+
+.shuffle-container{
+    width: 100%;
+	text-align: left;
+    margin-bottom: 5%;
+}
+
+
+span{
+    font-size: 0.7rem;
+}
+
+
+h1{
+    color: #ae5f36;
+    font-size: 2rem;
+    font-family:  Josefin Slab, helvetica, sans-serif;
+}
+
+article, .playlistText{
+    font-size: 1rem;
+    font-family:  Josefin Sans, helvetica, sans-serif;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+#shuffleSelector, #repeatSelector{
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+#p2, #p3{
+    display: none;
+}
+
+.article-container{
+    padding: 3rem;
+    border: 2px solid #212529;
+    border-radius: 6rem;
+}
+
+#hideButtonContainer{
+    width: 100%;
+    text-align: right;
+}
+
+#hideIcon{
+    font-size: 2rem;
+}
+
+#second-column{
+    display: none;
+}
+
+#progressSlider:hover{
+    cursor:grab;
+}
+
+#progressSlider:active{
+    cursor:grabbing;
+}
+
+.playlistImg{
+    height:3rem; 
+    margin-right: 1rem;
+}
+
+#playlist{
+    width: 20rem;
+    background-color: white;
+    display: none;
+}
+
+#playlistHeader{
+    color: black;
+    font-size: 2rem;
+    font-family:  Josefin Slab, helvetica, sans-serif;
+}
+
+#progressSlider{
+    accent-color: #eda304;
+}
+
